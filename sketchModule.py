@@ -1,13 +1,5 @@
 from PIL import Image 
-
-from io import BytesIO 
-
-import numpy as np 
-
 import cv2
-
-import matplotlib.pyplot as plt
-
 
 def convertto_watercolorsketch(inp_img,sigma_style): 
 
@@ -37,8 +29,6 @@ def load_an_image(image):
     img = Image.open(image) 
 
     return img 
-
-
 
 def percentageResize(n,percent,flag = 'dec'):
     if flag.lower() == 'dec':
