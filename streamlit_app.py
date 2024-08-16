@@ -1,7 +1,6 @@
-from io import StringIO
+
 import streamlit as st
 import numpy as np
-import pandas as pd
 import time
 from sketchModule import load_an_image,percentageResize,pencilSketch,convertto_watercolorsketch
 
