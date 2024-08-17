@@ -1,5 +1,5 @@
 from PIL import Image 
-import cv2
+from cv2 import edgePreservingFilter,stylization,pencilSketch
 
 def convertto_watercolorsketch(inp_img,sigma_style): 
 
