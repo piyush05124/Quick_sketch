@@ -2,7 +2,7 @@
 import streamlit as st
 import numpy as np
 import time
-from sketchModule import load_an_image,percentageResize,pencilSketch,convertto_watercolorsketch
+from .sketchModule import load_an_image,percentageResize,pencilSketch,convertto_watercolorsketch
 
 def main():
     uploaded_files = st.file_uploader("Upload image")
