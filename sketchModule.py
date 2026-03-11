@@ -1,6 +1,6 @@
 from PIL import Image 
-from cv2 import edgePreservingFilter,stylization,pencilSketch
-
+#from cv2 import edgePreservingFilter,stylization,pencilSketch
+import cv2
 def convertto_watercolorsketch(inp_img,sigma_style): 
 
     img_1 = cv2.edgePreservingFilter(inp_img, flags=2, sigma_s=5, sigma_r=0.8) 
